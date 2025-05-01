@@ -1,0 +1,33 @@
+@startuml
+
+class Cocinero{
++ nombreCocinero : String
++ añosExperiencia : int
++ especialidad : String
++ mostrarInformación():void
+
+}
+
+
+object cocinero1{
++ nombreCocinero = "Andres Panchi"
++ añosExperienciav = 2
++ especialidad = "Chef"
+}
+
+object cocinero2{
++ nombreCocinero = "Ivan Chavez"
++ añosExperienciav = 3
++ especialidad = "Mesero"
+}
+object cocinero3{
++ nombreCocinero = "Random"
++ añosExperienciav = 10
++ especialidad = "Auxiliar de cocina"
+}
+
+Cocinero -- cocinero1
+Cocinero -- cocinero2
+Cocinero -- cocinero3
+
+@enduml
