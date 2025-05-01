@@ -21,7 +21,6 @@ public class Main {
                 System.out.println("Ingrese su especialidad:");
                 String especialidad = sc.nextLine();
 
-
                 System.out.println("----- Resumen -----");
                 System.out.println("Nombre: " + nombre);
                 System.out.println("Años de experiencia: " + añosExperiencia);
